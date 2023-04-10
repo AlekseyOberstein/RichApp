@@ -8,10 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var document: amdjDocument
-
     var body: some View {
-        TextEditor(text: $document.text)
+        VStack{
+            Color (.systemCyan)
+                .ignoresSafeArea()
+            VStack{
+                HStack{
+                    Text{"Hello"
+                        
+                    }
+        }
     }
 }
 
